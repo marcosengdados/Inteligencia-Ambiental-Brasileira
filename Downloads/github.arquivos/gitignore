@@ -1,0 +1,118 @@
+# ==========================
+# 🐍 Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.whl
+MANIFEST
+
+# ==========================
+# 🌍 Ambiente Virtual
+# ==========================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ==========================
+# 🔐 Variáveis de Ambiente e Segredos
+# ==========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+
+# ==========================
+# 📄 Arquivos CSV de Dados
+# ==========================
+# Descomente se os CSVs forem grandes ou sensíveis:
+# *.csv
+# data/
+# input/
+# output/
+
+# ==========================
+# 🗄️ Banco de Dados
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# 🧪 Testes e Cobertura
+# ==========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+nosetests.xml
+test-results/
+.tox/
+
+# ==========================
+# 🔍 Análise de Tipo / Linting
+# ==========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ==========================
+# 📓 Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==========================
+# 🛠️ VS Code
+# ==========================
+.vscode/
+!.vscode/extensions.json
+# Descomente se quiser ignorar o workspace:
+# auto_infracao_csv.code-workspace
+
+# ==========================
+# 💻 Sistema Operacional
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+
+# ==========================
+# 📊 Logs e Temporários
+# ==========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+logs/
+tmp/
+temp/
